@@ -1,0 +1,10 @@
+.container {
+	background: linear-gradient(#380e2b, #121212 60%);
+	height: calc(100vh - 90px);
+	overflow: auto;
+}
+.sticky-top {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px) {
+	.wrapper {
+		:nth-child(n + 5) {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.wrapper {
+		display: none;
+	}
+}

@@ -1,0 +1,11 @@
+.card {
+	cursor: pointer;
+	p {
+		text-transform: capitalize;
+	}
+}
+.img {
+	right: -20px;
+	bottom: -20px;
+	transform: rotate(25deg);
+}

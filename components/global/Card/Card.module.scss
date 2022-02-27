@@ -1,0 +1,53 @@
+.card {
+	background-color: #181818;
+	transition: all 0.25s ease-in-out;
+
+	&:hover {
+		background-color: #282828;
+	}
+
+	h2 {
+		text-transform: capitalize;
+		height: 20px;
+		overflow: hidden;
+	}
+
+	p {
+		font-size: 0.9rem;
+		line-height: 1.1rem;
+		height: 33.6px;
+		overflow: hidden;
+
+		a {
+			color: #ababab;
+			text-decoration: none;
+			font-weight: 500;
+			&::after {
+				content: ', ';
+			}
+			&:last-child::after {
+				content: '';
+			}
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.artist {
+		color: #818181;
+		font-size: 0.8rem;
+		font-weight: bold;
+	}
+
+	.time,
+	.children {
+		font-size: 0.7rem;
+		color: #a3a3a3;
+		display: block;
+		padding: 0.5rem 0 1rem 0;
+	}
+	.children {
+		font-size: 0.9rem;
+	}
+}

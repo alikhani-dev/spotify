@@ -1,0 +1,48 @@
+.header {
+	height: 64px;
+	background-color: transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1rem;
+	transition: all 0.25s ease-in-out;
+}
+.back {
+	width: 35px;
+	height: 35px;
+	color: #737373;
+	background-color: #131313;
+	color: #969696;
+	border: 0;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	svg {
+		fill: #969696;
+	}
+}
+.wrapper-icon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 80px;
+	& > * {
+		width: 35px;
+		height: 35px;
+		font-size: 1.2rem;
+		border: 0;
+		border-radius: 50%;
+	}
+}
+.eyes {
+	background-color: #2e77d0;
+	fill: #fff;
+}
+.person {
+	background-color: #535353;
+	svg {
+		fill: #fff;
+	}
+}
